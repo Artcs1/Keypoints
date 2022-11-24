@@ -89,7 +89,11 @@ Downloads links will be available soon.
 
 ### 100 images per dataset
 
+[Downloand link](https://www.inf.ufrgs.br/panorama/data_100.zip)
+
 ### 1000 images per dataset
+
+[Downloand link](https://www.inf.ufrgs.br/panorama/data_1000.zip)
 
 ## Cite our work
 
