@@ -46,7 +46,7 @@ conda deactivate
 
 ```
 cd fivepoint
-conda create --name FP python=3.7
+conda create --name FP python=3.8
 conda activate FP
 conda install -c conda-forge opencv==4.5.5
 mkdir build
