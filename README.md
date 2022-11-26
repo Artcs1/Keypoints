@@ -1,6 +1,6 @@
 # Keypoints
 
-This is the official repository of the OMNICV-CVPR workshop named "Pose Estimation for Two-View Panoramas: a Comparative Analysis"
+This is the official repository of the OMNICV-CVPR2022 workshop named "Pose Estimation for Two-View Panoramas: a Comparative Analysis"
 
 Visit our paper:
 
