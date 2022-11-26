@@ -4,7 +4,8 @@ This is the official repository of the OMNICV-CVPR workshop named "Pose Estimati
 
 Visit our paper:
 
-[IEEE link](https://ieeexplore.ieee.org/document/9857392)
+[IEEE link](https://ieeexplore.ieee.org/document/9857392) 
+
 [CVF access](https://openaccess.thecvf.com/content/CVPR2022W/OmniCV/papers/Murrugarra-Llerena_Pose_Estimation_for_Two-View_Panoramas_Based_on_Keypoint_Matching_A_CVPRW_2022_paper.pdf)
 
 ## Installation
