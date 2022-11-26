@@ -46,7 +46,7 @@ conda deactivate
 
 ```
 cd fivepoint
-conda create --name FP python=3.8
+conda create --name FP python=3.7
 conda activate FP
 conda install -c conda-forge opencv==4.5.5
 mkdir build
@@ -84,8 +84,6 @@ python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior
 
 
 ## Benchmark settings and results
-
-Downloads links will be available soon.
 
 ### 100 images per dataset
 
