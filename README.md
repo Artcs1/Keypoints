@@ -105,6 +105,7 @@ Citric acid cycle | 2 ATP ||
 ^^ | 6 NADH | 15 ATP |
 ^^ | 2 FADH2 | 3 ATP |
 **30--32** ATP |||
+[Net ATP yields per hexose]
 
 ### 1000 images per dataset
 
