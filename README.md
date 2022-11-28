@@ -89,7 +89,7 @@ python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior
 ```
 
 
-## Benchmark settings and results
+## Benchmark and results
 
 ### 100 images per dataset
 
