@@ -95,16 +95,16 @@ python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior
 
 [Downloand link](https://www.inf.ufrgs.br/panorama/data_100.zip)
 
-| Descriptors  | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-| git status   | git status     | git status    |
 
+|   Descriptors   | Rotation ||
+|--------------|---------------|
+|    *Italic*  | *Italic*      | \
+|              |               |
+|    - Item 1  | - Item 1      | \
+|    - Item 2  | - Item 2      |
+|    ```python | ```python       \
+|    .1 + .2   | .1 + .2         \
+|    ```       | ```           |
 
 
 ### 1000 images per dataset
