@@ -96,16 +96,15 @@ python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior
 [Downloand link](https://www.inf.ufrgs.br/panorama/data_100.zip)
 
 
-|   Descriptors   | Rotation ||
-|--------------|---------------|
-|    *Italic*  | *Italic*      | \
-|              |               |
-|    - Item 1  | - Item 1      | \
-|    - Item 2  | - Item 2      |
-|    ```python | ```python       \
-|    .1 + .2   | .1 + .2         \
-|    ```       | ```           |
-
+Stage | Direct Products | ATP Yields
+----: | --------------: | ---------:
+Glycolysis | 2 ATP ||
+^^ | 2 NADH | 3--5 ATP |
+Pyruvaye oxidation | 2 NADH | 5 ATP |
+Citric acid cycle | 2 ATP ||
+^^ | 6 NADH | 15 ATP |
+^^ | 2 FADH2 | 3 ATP |
+**30--32** ATP |||
 
 ### 1000 images per dataset
 
