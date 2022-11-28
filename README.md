@@ -79,13 +79,13 @@ python3 extract_keypoints.py --datas [Urban1|Urban2|Urban3|Urban4|Room|Classroom
 3. Example for Outdoor dataset
 
 ```
-python3 extract_keypoints.py --datas Urban1 Urban2 Urban3 Urban4 --descriptors  sift tsift orb torb spoint tspoint sphorb
+python3 extract_keypoints.py --datas Urban1 Urban2 Urban3 Urban4 --descriptors  orb torb sift tsift spoint tspoint sphorb
 ```
 
 4. Example for Indoor dataset
 
 ```
-python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior2--descriptors  sift tsift orb torb spoint tspoint sphorb
+python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior2 --descriptors  orb torb sift tsift spoint tspoint sphorb
 ```
 
 
