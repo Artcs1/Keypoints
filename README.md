@@ -1,6 +1,12 @@
 # Keypoints
 
-This is the official repository of the OMNICV-CVPR workshop named "Pose Estimation for Two-View Panoramas: a Comparative Analysis"
+This is the official repository of the OMNICV-CVPR2022 workshop named "Pose Estimation for Two-View Panoramas: a Comparative Analysis"
+
+Visit our paper:
+
+[IEEE link](https://ieeexplore.ieee.org/document/9857392) 
+
+[CVF access](https://openaccess.thecvf.com/content/CVPR2022W/OmniCV/papers/Murrugarra-Llerena_Pose_Estimation_for_Two-View_Panoramas_Based_on_Keypoint_Matching_A_CVPRW_2022_paper.pdf)
 
 ## Installation
 
@@ -73,21 +79,34 @@ python3 extract_keypoints.py --datas [Urban1|Urban2|Urban3|Urban4|Room|Classroom
 3. Example for Outdoor dataset
 
 ```
-python3 extract_keypoints.py --datas Urban1 Urban2 Urban3 Urban4 --descriptors  sift tsift orb torb spoint tspoint sphorb
+python3 extract_keypoints.py --datas Urban1 Urban2 Urban3 Urban4 --descriptors  orb torb sift tsift spoint tspoint sphorb
 ```
 
 4. Example for Indoor dataset
 
 ```
-python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior2--descriptors  sift tsift orb torb spoint tspoint sphorb
+python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior2 --descriptors  orb torb sift tsift spoint tspoint sphorb
 ```
 
+## Visual example
 
-## Benchmark Results
+```
+python3 show_keypoints.py --descriptor sift
+```
+![Keypoints](keypoints.png)
+
+## Benchmark and results
 
 ### 100 images per dataset
 
+[Downloand link](https://www.inf.ufrgs.br/panorama/data_100.zip)
+
+![Indoor](100data_indoor.png)
+![Outdoor](100data_outdoor.png)
+
 ### 1000 images per dataset
+
+[Downloand link](https://www.inf.ufrgs.br/panorama/data_1000.zip)
 
 ## Cite our work
 
