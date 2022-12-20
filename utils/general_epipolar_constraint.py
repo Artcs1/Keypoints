@@ -1,6 +1,11 @@
 import numpy as np
 import math
-import fivepoint.build.fivep as f
+import sys
+import os
+
+sys.path.append(os.getcwd()+'/fivepoint')
+
+import build.fivep as f
 
 def vector2skew_matrix(vector):
     """

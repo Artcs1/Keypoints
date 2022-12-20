@@ -188,7 +188,7 @@ def main():
     parser = argparse.ArgumentParser(description = 'Tangent Plane')
     parser.add_argument('--points', type=int, default = 12000)
     parser.add_argument('--descriptor', default = 'sift')
-    parser.add_argument('--path', default = "/home/artcs/Desktop/Keypoints/data/Room/0/")
+    parser.add_argument('--path', default = "./data/Room/0/")
     args = parser.parse_args()
 
 
@@ -215,6 +215,8 @@ def main():
     else:
                         
         os.chdir('SPHORB-master/')
+
+        path_o = "."+path_o
 
         pts1, desc1 = get_kd(sphorb.sphorb(path_o, args.points))
 

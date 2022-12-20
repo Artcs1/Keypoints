@@ -1,2 +1,0 @@
-,Matched,Keypoint
-tspoint,85500.000,4670000.000

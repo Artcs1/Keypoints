@@ -1,2 +1,0 @@
-,Matched,Keypoint
-tspoint,262975.391,4817265.101

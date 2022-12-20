@@ -196,7 +196,7 @@ def main():
     parser.add_argument('--match', default="ratio")
     parser.add_argument('--g_metrics',default="False")
     parser.add_argument('--solver', default="None")
-    parser.add_argument('--inliers', default="5PA")
+    parser.add_argument('--inliers', default="8PA")
     parser.add_argument('--datas'      , nargs='+')
     parser.add_argument('--descriptors', nargs='+')
     args = parser.parse_args()
@@ -236,6 +236,8 @@ def main():
         for path in tqdm(paths):
 
             for indicador, descriptor in enumerate(DESCRIPTORS):
+
+
 
                 try:
 
@@ -280,6 +282,7 @@ def main():
 
                     if len(pts2.shape) == 1:
                         pts2 = pts2.reshape(1,-1)
+
 
                     Rx = np.load(path+"/R.npy")
                     Tx = np.load(path+"/T.npy")
