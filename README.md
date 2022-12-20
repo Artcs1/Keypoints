@@ -88,6 +88,12 @@ python3 extract_keypoints.py --datas Urban1 Urban2 Urban3 Urban4 --descriptors  
 python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior2 --descriptors  orb torb sift tsift spoint tspoint sphorb
 ```
 
+## Visual example
+
+```
+python3 show_keypoints.py --descriptor sift
+```
+![Keypoints](keypoints.png)
 
 ## Benchmark and results
 
