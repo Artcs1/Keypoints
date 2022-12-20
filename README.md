@@ -95,7 +95,8 @@ python3 extract_keypoints.py --datas Room Classroom Realistic Interior1 Interior
 
 [Downloand link](https://www.inf.ufrgs.br/panorama/data_100.zip)
 
-![Drag Racing](100data_indoor.png)
+![Indoor](100data_indoor.png)
+![Outdoor](100data_outdoor.png)
 
 ### 1000 images per dataset
 
