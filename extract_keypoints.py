@@ -275,7 +275,7 @@ def main():
                         os.chdir('../')
 
 
-                    #depth = np.load("results/depth/"+data+".npy")
+                    depth = np.load("results/depth/"+data+".npy")
 
                     if len(pts1.shape) == 1:
                         pts1 = pts1.reshape(1,-1)
@@ -290,6 +290,17 @@ def main():
                         if pts1.shape[0] > 0 or pts2.shape[0] >0:
 
                             s_pts1, s_pts2, x1, x2 = matched_points(pts1, pts2, desc1, desc2, option, opt, args.match)
+
+                            z_d = depth[(x1[:,1]*512/sphered).astype('int')%512,(x1[:,0]*512/sphered).astype('int')%1024]
+                            z_d2 = depth[(s_pts1[:,1]*512/sphered).astype('int')%512,(s_pts1[:,0]*512/sphered).astype('int')%1024]
+
+                            x1,x2 = coord_3d(x1, dim), coord_3d(x2, dim)
+                            x2_ = (x1.copy()*z_d.reshape(-1,1))@Rx.T + Tx
+                            x2_ = x2_/np.linalg.norm(x2_,axis=1).reshape(-1,1)
+
+                            s_pts1, s_pts2 = coord_3d(s_pts1, dim), coord_3d(s_pts2, dim)
+                            s_pts2_ = (s_pts1.copy()*z_d2.reshape(-1,1))@Rx.T + Tx
+                            s_pts2_ = s_pts2_/np.linalg.norm(s_pts2_,axis=1).reshape(-1,1)
 
 
                             if args.g_metrics == "True":
